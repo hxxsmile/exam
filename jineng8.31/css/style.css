@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html,body,.wrap{
+	width: 100%;
+	height: 100%;
+	font-size: 0.16rem;
+}
+
+.wrap{
+	display: flex;
+	flex-direction: column;
+}
+
+header{
+	width: 100%;
+	height: 1.0rem;
+	background: #393a3f;
+	color: #fff;
+	font-size: 0.35rem;
+	line-height: 1.0rem;
+	text-align: center;
+	position: relative;
+}
+header span:nth-child(1){
+	position: absolute;
+	left: 0.34rem;
+}
+header span:nth-child(3){
+	position: absolute;
+	right: 0.34rem;
+}
+header span i{
+	font-size: 0.4rem !important;
+}
+
+.filter{
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.6;
+	position: relative;
+}
+.filter>.test{
+	width: 90%;
+	height: 8.82rem;
+	background: #fff;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 5%;
+	top: 50%;
+	transform: translateY(-50%);
+	position: relative;
+}
+.test>.banner{
+	width: 2.7rem;
+	height: 0.9rem;
+	background: url(../img/logo_01.png) no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+	top: 0.68rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.test>.title{
+	font-size: 0.33rem;
+	position: absolute;
+	top: 1.78rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.test>.form1{
+	width: 90%;
+	height: 0.89rem;
+	border-bottom: 0.01rem solid #999;
+	position: absolute;
+	top: 3.0rem;
+	left: 5%;
+	position: relative;
+}
+.test>.form1>label>img{
+	width: 0.35rem;
+	height: 0.44rem;
+	position: absolute;
+	left: 0.34rem;
+	top: 0.18rem;
+}
+.test>.form1>input{
+	width: 80%;
+	height: 0.89rem;
+	position: absolute;
+	left: 0.84rem;
+	border:none;
+	outline: none;
+}
+.test>.form2{
+	width: 90%;
+	height: 0.89rem;
+	border-bottom: 0.01rem solid #999;
+	position: absolute;
+	top: 4.52rem;
+	left: 5%;
+}
+.test>.form2>label>img{
+	width: 0.38rem;
+	height: 0.38rem;
+	margin-left:0.34rem;
+	vertical-align: middle;
+}
+.test>.form2>input{
+	width: 80%;
+	height: 0.89rem;
+	border:none;
+	outline: none;
+	margin-left:0.34rem;
+}
+.test>.btn{
+	width: 90%;
+	height: 0.78rem;
+	border-radius: 0.1rem;
+	background: #2fba77;
+	color: #fff;
+	text-align: center;
+	line-height: 0.78rem;
+	border:none;
+	outline: none;
+	position: absolute;
+	bottom: 1.8rem;
+	left: 50%;
+	transform: translateX(-50%);
+}
