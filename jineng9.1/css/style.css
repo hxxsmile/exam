@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+html, body, .wrap {
+  width: 100%;
+  height: 100%;
+  font-size: 0.16rem; }
+
+.wrap {
+  display: flex;
+  flex-direction: column; }
+
+header {
+  width: 100%;
+  height: 1.2rem; }
+  header .nav {
+    width: 100%;
+    height: 1.2rem;
+    border-top: 0.02rem solid #e1e1e1;
+    border-bottom: 0.02rem solid #e1e1e1; }
+    header .nav .nav_span {
+      width: 70%;
+      height: 1.2rem;
+      margin-left: 14%;
+      color: #b2b2b2;
+      font-size: 0.28rem;
+      line-height: 1.2rem;
+      position: relative; }
+      header .nav .nav_span span {
+        display: inline-block;
+        width: 32%;
+        text-align: center; }
+      header .nav .nav_span span.on {
+        color: #5675f5; }
+      header .nav .nav_span em {
+        display: inline-block;
+        width: 34%;
+        height: 0.05rem;
+        background: #5675f5;
+        position: absolute;
+        bottom: 0;
+        left: 0; }
+
+section {
+  width: 100%;
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  background: #f3f3fe; }
+  section .swiper-container {
+    width: 100%; }
+    section .swiper-container .swiper-wrapper {
+      width: 100%; }
+      section .swiper-container .swiper-wrapper .swiper-slide {
+        width: 100%;
+        margin-top: 0.16rem;
+        background: #fff;
+        border-top: 0.02rem solid #e1e1e1; }
+  section .wei .free1 {
+    width: 90%;
+    height: 2.25rem;
+    margin-left: 5%;
+    margin-top: 5%;
+    background: url(../images/1_03.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    section .wei .free1 .img1 {
+      width: 0.4rem;
+      height: 0.45rem;
+      position: absolute;
+      left: 0.38rem;
+      top: 0.22rem; }
+    section .wei .free1 h2 {
+      font-size: 0.9rem;
+      color: #fff;
+      position: absolute;
+      left: 1.0rem; }
+    section .wei .free1 h3 {
+      font-size: 0.5rem;
+      font-weight: normal;
+      color: #fff;
+      position: absolute;
+      right: 0.24rem;
+      top: 0.50rem; }
+    section .wei .free1 h5 {
+      position: absolute;
+      left: 0.42rem;
+      bottom: 0.49rem;
+      font-weight: normal; }
+      section .wei .free1 h5 img {
+        width: 0.30rem;
+        height: 0.30rem;
+        margin-right: 0.05rem;
+        vertical-align: middle; }
+      section .wei .free1 h5 span {
+        color: #00a65f; }
+    section .wei .free1 h6 {
+      position: absolute;
+      left: 0.42rem;
+      bottom: 0.12rem;
+      font-weight: normal; }
+      section .wei .free1 h6 img {
+        width: 0.31rem;
+        height: 0.28rem;
+        vertical-align: middle; }
+      section .wei .free1 h6 span {
+        color: #a1a1a1; }
+  section .wei .free2 {
+    width: 90%;
+    height: 2.25rem;
+    margin-left: 5%;
+    margin-top: 5%;
+    background: url(../images/2_03.png) no-repeat;
+    background-size: 100% 100%;
+    position: relative; }
+    section .wei .free2 .img1 {
+      width: 0.4rem;
+      height: 0.45rem;
+      position: absolute;
+      left: 0.38rem;
+      top: 0.22rem; }
+    section .wei .free2 h2 {
+      font-size: 0.9rem;
+      color: #fff;
+      position: absolute;
+      left: 1.0rem; }
+    section .wei .free2 h3 {
+      font-size: 0.5rem;
+      font-weight: normal;
+      color: #fff;
+      position: absolute;
+      right: 0.24rem;
+      top: 0.50rem; }
+    section .wei .free2 h5 {
+      position: absolute;
+      left: 0.42rem;
+      bottom: 0.49rem;
+      font-weight: normal; }
+      section .wei .free2 h5 img {
+        width: 0.30rem;
+        height: 0.30rem;
+        margin-right: 0.05rem;
+        vertical-align: middle; }
+      section .wei .free2 h5 span {
+        color: #00a65f; }
+    section .wei .free2 h6 {
+      position: absolute;
+      left: 0.42rem;
+      bottom: 0.12rem;
+      font-weight: normal; }
+      section .wei .free2 h6 img {
+        width: 0.31rem;
+        height: 0.28rem;
+        vertical-align: middle; }
+      section .wei .free2 h6 span {
+        color: #a1a1a1; }
+
+footer {
+  width: 100%;
+  height: 1.0rem;
+  background: skyblue; }
+
+/*# sourceMappingURL=style.css.map */
